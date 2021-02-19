@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>rent cars</title>
+    <link rel='stylesheet' href="reservation.css">
+    <meta name="description" content="this is a rent cars website">
+    <meta name="keyword" content="rent, auto, vehiculs, motors, cars, camions, trucks, vans">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+
+<body>
+    <div class="allpage">
+        <nav class='navbar'>
+            <img class = "logo" src= logoauto.png alt ="">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cargallery.html">Gallery</a></li>
+                <li><a class = "active" href="Reservations.html">Reservation</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+
+            </ul>
+
+        </nav>
+        <div class = "select">
+            <select id = "vehicule" onchange = "select()">
+                <option>Select vehicule</option>
+                <option>Moto</option>
+                <option>Compact </option>
+                <option>Citadine </option>
+                <option>Berlin/automatique </option>
+                <option >Utilitaire </option>
+                <option >Trucks/automatique </option>
+                <option >Heavy Machines</option>
+            </select>
+
+           <div class = "cfuel">
+            <select id = "fuel" onchange = "select()">
+                <option>select fuel</option>
+                <option id = "e">essance</option>
+                <option id = "d">diesel</option>
+                <option id = "h">hybride</option>
+                <option id = "el">electrique</option>
+            </select>
+
+
+            <div class = "priceplace">
+                <p>Total Price</p>
+                <div>
+                <input type = "text" id = "priceholder" style="width: 200px; height: 50px; font-size: 30px; color:blue;">
+            </div>
+
+       
+    </div>
+    <footer>
+        
+        <ul class="our_socialmedia_icons">
+            <li> <a href="#"><img src="icon/s1.png"></a></li>
+            <li> <a href="#"><img src="icon/s2.png"></a></li>
+            <li> <a href="#"><img src="icon/s3.png"></a></li>
+         </ul>
+         <br>
+         <h2>www.autolocoo.com © 2021 - All rights reserved</h2>
+
+
+
+    </footer>
+    <script src = "try.js"></script>
+
+</body>
+
+</html>

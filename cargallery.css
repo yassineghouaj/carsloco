@@ -1,0 +1,277 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+}
+
+
+.allpage{
+    background-image:url(grg.jpg);
+    background-size : cover;
+    height: 450vh;
+    width: 100%;
+    
+}
+.navbar{
+     height: 80px;
+     width: 100%;
+     background-color:whitesmoke;
+
+}
+.navbar .logo {
+    height: 50px;
+    width: 100px;
+    margin-left: 50px;
+    margin-top:20px ;
+
+}
+.navbar ul {
+    float: right;
+    margin-right: 50px;
+}
+.navbar ul li {
+    list-style: 20px;
+    margin: 0 8px;
+    display:inline-block;
+    line-height: 80px;
+    
+}
+.navbar ul a{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family:Arial;
+    transition: 1s;
+   
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background:grey;
+    border-radius: 2px;
+}
+
+.car_container1{
+    margin-top: 100px;
+    height:100vh;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+}
+.car1{
+    width: 400px;
+    height: 240px;
+}
+.car2{
+    width: 400px;
+    height: 240px;
+}
+.car3{
+    width: 400px;
+    height: 240px;
+}
+
+.car_container2{
+    margin-top: -50px;
+    height:100vh;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+.car4{
+    width: 400px;
+    height: 240px;
+}
+.car5{
+    width: 400px;
+    height: 240px;
+}
+.car6{
+    
+    width: 400px;
+    height: 240px;    
+}
+.moto_container1{
+    margin-top: -50px;
+    height:100vh;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+
+}
+.moto1{
+    width: 400px;
+    height: 240px;
+}
+.moto2{
+    width: 400px;
+    height: 240px;
+}
+.moto3{
+    width: 400px;
+    height: 240px;
+}
+.trucks_container1{
+    margin-top: -100px;
+    height:100vh;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+}
+.truck1{
+    width: 400px;
+    height: 240px;
+}
+.truck2{
+    width: 400px;
+    height: 240px;
+}
+.hv_container1{
+    margin-top: -50px;
+    height:100vh;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+
+}
+.hv1{
+    width: 400px;
+    height: 240px;
+    
+}
+.hv2{
+    width: 400px;
+    height: 240px;
+}
+
+p{
+    font-family: Arial;
+    color:white;
+    text-align: center;
+    font-size:medium;
+}
+.our_socialmedia_icons{
+
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -10px;
+    
+}
+.our_socialmedia_icons li {
+    
+    list-style: 10px;
+    margin: 0 8px;
+    display:inline-block;
+    line-height: 5px;
+
+}
+
+.our_socialmedia_icons li img{
+
+    width: 50px;
+    height: 50px;
+}
+h2 {
+
+    font-family: Arial;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 15px;  
+ 
+}
+
+/*phone size*/
+@media screen and (max-width: 44em) {
+
+    .allpage{
+       height: 770vh;
+       width: 100%;
+    }
+       
+       .navbar ul {
+   
+            text-align: center;
+       }
+      
+       .navbar .logo {
+           
+          margin-left: 200px;
+          margin-top:20px ;
+         
+       }
+       .navbar ul li a{
+
+        font-size: 14px;
+        color: whitesmoke;
+ 
+     }
+     .car_container1{
+        margin-top: 250px;
+        margin-left: 50px;
+        margin-right: 50px;
+        height:100vh;
+        width: 100%;
+        display:flex;
+        flex-direction: column;   
+    
+    }
+    .car_container2{
+        margin-top: 350px;
+        margin-left: 50px;
+        margin-right: 50px;
+        height:100vh;
+        width: 100%;
+        display:flex;
+        flex-direction: column;   
+    
+    }
+    .moto_container1{
+        margin-top: 380px;
+        margin-left: 50px;
+        margin-right: 50px;
+        height:100vh;
+        width: 100%;
+        display:flex;
+        flex-direction: column; 
+    }
+    .trucks_container1{
+
+        margin-top: 250px;
+        margin-left: 50px;
+        margin-right: 50px;
+        height:100vh;
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+ }
+ .hv_container1{
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 80px;
+    height:100vh;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+ }
+
+    
+   p{
+       margin-right:80px;
+       margin-bottom: 20px;
+   }
+   .our_socialmedia_icons{
+
+    text-align: center;
+}
+
+h2 {
+
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size:10px;
+}
+}

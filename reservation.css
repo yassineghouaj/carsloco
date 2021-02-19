@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.allpage{
+    background-image: url(grg.jpg);
+    background-size : cover;
+    height: 100vh;
+    
+    
+}
+.navbar{
+     height: 80px;
+     width: 100%;
+     background-color:whitesmoke;
+
+}
+.navbar .logo {
+    height: 50px;
+    width: 100px;
+    margin-left: 50px;
+    margin-top:20px ;
+
+}
+.navbar ul {
+    float: right;
+    margin-right: 50px;
+}
+.navbar ul li {
+    list-style: 20px;
+    margin: 0 8px;
+    display:inline-block;
+    line-height: 80px;
+    
+}
+.navbar ul a{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family:Arial;
+    transition: 1s;
+   
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background:grey;
+    border-radius: 2px;
+}
+.select{
+
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+    
+
+}
+#vehicule{
+    font-family: Arial;
+    color: blue;
+    background-color:whitesmoke;
+    font-size: 25px;
+    width:200px;
+    height: 50px;
+    
+}
+.cfuel{
+    margin-top: 50px;
+
+}
+#fuel{
+    font-family: Arial;
+    color: blue;
+    background-color:whitesmoke;
+    font-size: 25px;
+    width:200px;
+    height: 50px;
+     
+
+}
+p{
+    color:white;
+}
+
+.priceplace{
+     text-align: center;   
+     margin-top: 50px;
+}
+
+.our_socialmedia_icons{
+
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 0px;
+    
+}
+.our_socialmedia_icons li {
+    
+    list-style: 10px;
+    margin: 0 8px;
+    display:inline-block;
+    line-height: 5px;
+
+}
+.our_socialmedia_icons li img{
+
+    width: 50px;
+    height: 50px;
+}
+h2 {
+
+    font-family: Arial;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 15px;    
+ 
+}
+/*phone size*/
+@media screen and (max-width: 44em) {
+
+    .allpage{
+       height: 135vh;
+       width: 100%;
+    }
+       
+       .navbar ul {
+   
+            text-align: center;
+       }
+      
+       .navbar .logo {
+           
+          margin-left: 200px;
+          margin-top:20px ;
+         
+       }
+       .navbar ul li a{
+
+        font-size: 14px;
+        color: whitesmoke;
+       }
+
+    .select{
+        margin-top: 250px;
+        margin-left: 50px;
+        margin-right: 50px;
+        height:100vh;
+        width: 100%;
+        display:flex;
+        flex-direction: column;   
+    
+    }
+    #vehicule{
+        font-family: Arial;
+        color: blue;
+        background-color:whitesmoke;
+        font-size: 25px;
+        width:200px;
+        height: 50px;
+        margin-left: 93px;
+        
+    }
+    .cfuel{
+        margin-right:100px;
+        margin-top: 50px;
+    }.our_socialmedia_icons{
+
+        margin-top: 180px;
+        text-align: center;
+}
+    
+    h2 {
+
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size:10px;
+    }
+}
