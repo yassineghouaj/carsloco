@@ -18,6 +18,23 @@
      background-color:whitesmoke;
 
 }
+.toggle-button{
+
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height:21px;
+}
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: blue;
+    border-radius: 10px;
+}
 .navbar .logo {
     height: 50px;
     width: 100px;
@@ -94,9 +111,14 @@ p{
     border-radius: 25px;
     transition: .5s;
     
+    
 }
 .btn button:hover{
     background: grey;
+    
+}
+.btn button a{
+    text-decoration: none;
 }
 
 .our_socialmedia_icons{
@@ -133,31 +155,55 @@ h2 {
  
 }
 /*phone size*/
-@media screen and (max-width: 44em) {
+@media only screen and (max-width: 400px) {
 
     .allpage{
         background-image:url("background.jpg");
         background-size :cover;
-        height: 220vh;
-        width: 100%;
+        height: 160vh;
+        width: 375px;
         
     }
+    .toggle-button{
+        
+        margin-right: 60px;
+        margin-top: 25px;
+        display: flex;
+       
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 375px;
+    }
+    .navbar ul .active{
+        display:flex;
+    }
+    
      .navbar ul {
-
-          text-align: center;
+          
+          display:flex;
+          /*text-align: center;*/
+          width: 80%;
+          flex-direction: column;
      }
     
      .navbar .logo {
          
-        margin-left: 200px;
+        margin-left: 140px;
         margin-top:20px ;
        
-     }    
+     }
+     .navbar ul li{
+         text-align: center;
+     }
 
      .navbar ul li a{
 
-        font-size: 14px;
+        margin-right: 5px;
+        font-size: 20px;
         color: whitesmoke;
+        padding: .5rem 1rem;
 
      }
 

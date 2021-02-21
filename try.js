@@ -1,4 +1,14 @@
+/*var togglebutton = document.getElementsByClassName("toggle-button")[0];
+var navbar = document.getElementsByClassName("ul")[0];
+
+togglebutton.addEventListener('click', () => {
+    navbar.classList.toggle('active')
+})
+*/
+
+
 //vehicules //
+
 var v1 = "Moto";
 var v2 = "Compact";
 var v3 = "Citadine";
@@ -16,6 +26,8 @@ var f4 = "electrique";
 
 
 function select(){
+
+    
     var choice = document.getElementById("vehicule");
     var selectedchoice = choice.options[choice.selectedIndex].text;
   
@@ -23,32 +35,28 @@ function select(){
 
     var f = document.getElementById("fuel");
     var selectedf = f.options[f.selectedIndex].text;
+
     
     ///moto//////////
     if(selectedchoice == v1){
+
         document.getElementById("d").style.display = "none";
         document.getElementById("h").style.display = "none";
         if (selectedf == f1){
-            var days = window.prompt("how much days : ");
-            price = (1.4000000000000001 + 10) * days; 
-            window.priceholder.value = price + "$";
-
-
+               var days = window.prompt("how much days : ");
+               var price = (1.4000000000000001 + 10); 
+               window.priceholder.value = price + "$";
         }else if(selectedf == f4){
             var days = window.prompt("how much days : ");
             price = (0.5 + 10) * days;
             window.priceholder.value = price + "$";
         }
         
-            
-        
-
-
       /////compact///////////
     }else if(selectedchoice == v2){
         document.getElementById("el").style.display = "none";
         if (selectedf == f3){
-        var days = window.prompt("how much days : ")
+        var days = window.prompt("how much days : ");
         price = (1.26 + 14) * days; 
         window.priceholder.value = price + "$";
 
@@ -172,4 +180,25 @@ function display_info(){
    
  
 }
+
+function moto(){
+
     
+    var days = window.daysinput.value;
+    var price = (1.4000000000000001 + 10);
+    window.priceholder.value = price * days;
+
+}
+
+
+/*
+document.getElementById("d").style.display = "none";
+        document.getElementById("h").style.display = "none";
+        if (selectedf == f1){
+               var days = window.daysinput.value;
+               var price = (1.4000000000000001 + 10); 
+        }else if(selectedf == f4){
+            var days = window.prompt("how much days : ");
+            price = (0.5 + 10) * days;
+            window.priceholder.value = price + "$";
+        }*/
