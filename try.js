@@ -1,10 +1,7 @@
-/*var togglebutton = document.getElementsByClassName("toggle-button")[0];
-var navbar = document.getElementsByClassName("ul")[0];
+function opennav(){
+    document.getElementById("navmenu").style.display = "flex";
+}
 
-togglebutton.addEventListener('click', () => {
-    navbar.classList.toggle('active')
-})
-*/
 
 
 //vehicules //
@@ -40,8 +37,11 @@ function select(){
     ///moto//////////
     if(selectedchoice == v1){
 
+        document.getElementById("e").style.display = "block";
         document.getElementById("d").style.display = "none";
         document.getElementById("h").style.display = "none";
+        document.getElementById("el").style.display = "block";
+        
         if (selectedf == f1){
                var days = window.prompt("how much days : ");
                var price = (1.4000000000000001 + 10); 
@@ -55,6 +55,10 @@ function select(){
       /////compact///////////
     }else if(selectedchoice == v2){
         document.getElementById("el").style.display = "none";
+        document.getElementById("e").style.display = "block";
+        document.getElementById("h").style.display = "block";
+        document.getElementById("d").style.display = "block";
+
         if (selectedf == f3){
         var days = window.prompt("how much days : ");
         price = (1.26 + 14) * days; 
@@ -76,6 +80,10 @@ function select(){
         
      ///////citadine/////
     }else if (selectedchoice == v3) {
+        document.getElementById("e").style.display = "block";
+        document.getElementById("d").style.display = "block";
+        document.getElementById("h").style.display = "block";
+        document.getElementById("el").style.display = "block";
 
         if (selectedf == f3){
             var days = window.prompt("how much days : ")
@@ -103,6 +111,9 @@ function select(){
         ////berlin///////////
     }else if (selectedchoice == v4){
         document.getElementById("el").style.display = "none";
+        document.getElementById("e").style.display = "block";
+        document.getElementById("d").style.display = "block";
+        document.getElementById("h").style.display = "block";
 
         if (selectedf == f3){
 
@@ -128,6 +139,7 @@ function select(){
         document.getElementById("e").style.display = "none";
         document.getElementById("h").style.display = "none";
         document.getElementById("el").style.display = "none";
+        document.getElementById("d").style.display = "block";
 
         if(selectedf == f2){
         var days = window.prompt("how much days : ")
@@ -141,7 +153,7 @@ function select(){
         document.getElementById("e").style.display = "none";
         document.getElementById("h").style.display = "none";
         document.getElementById("el").style.display = "none";
-
+        document.getElementById("d").style.display = "block";
         if(selectedf == f2){
             var days = window.prompt("how much days : ")
             price = (52.5 + 47.5 + 250) * days
@@ -153,7 +165,8 @@ function select(){
     } else if(selectedchoice == v7){
         document.getElementById("h").style.display = "none";
         document.getElementById("el").style.display = "none";
-
+        document.getElementById("d").style.display = "block";
+        document.getElementById("e").style.display = "none";
         if(selectedf == f1){
             var days = window.prompt("how much days : ")
             price = (126.00000000000001 + 900) * days
@@ -181,14 +194,15 @@ function display_info(){
  
 }
 
-function moto(){
+
+/*function moto(){
 
     
     var days = window.daysinput.value;
     var price = (1.4000000000000001 + 10);
     window.priceholder.value = price * days;
 
-}
+}*/
 
 
 /*

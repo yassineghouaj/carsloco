@@ -176,10 +176,13 @@ h2 {
         align-items: flex-start;
         width: 375px;
     }
-    .navbar ul .active{
+    .navbar ul .activeMenu{
         display:flex;
     }
-    
+    #navmenu{
+        display :none;
+        
+    }
      .navbar ul {
           
           display:flex;
