@@ -9,7 +9,7 @@
     
     background-image:url(grg.jpg);
     background-size : cover;
-    height: 470vh;
+    height: 455vh;
     width: 100%;
     
 }
@@ -172,7 +172,7 @@ p{
 .our_socialmedia_icons{
     
     text-align: center;
-    margin-top: 190px;
+
     margin-bottom: 0px;
     
 }
