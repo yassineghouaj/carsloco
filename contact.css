@@ -4,7 +4,7 @@
     
 }
 .allpage{
-    background-image:url("grg.jpg");
+    background-image:url("black.jpg");
     background-size : cover;
     height: 140vh;
     width: 100%;
@@ -75,7 +75,6 @@
     margin-left: 350px;
     max-width: 500px;
     padding:20px;
-    box-shadow: 0px 0px 0px rgb(136, 131, 131);
     background-color: white;
     border-radius: 8px;
     margin-bottom: 20px ;
@@ -98,10 +97,9 @@
 textarea{
     resize: vertical;
 }
-button[type="submit"]{
+button{
     width: 108%;
     border:none;
-    outline:none;
     padding:20px;
     font-size: 24px;
     border-radius: 8px;
@@ -159,17 +157,15 @@ h2 {
         align-items: flex-start;
         width: 375px;
     }
+    .navbar ul {
+          
+        display:flex;
+        width: 80%;
+        flex-direction: column;
+   }
     .navbar ul .active{
         display:flex;
     }
-    
-     .navbar ul {
-          
-          display:flex;
-          /*text-align: center;*/
-          width: 80%;
-          flex-direction: column;
-     }
     
      .navbar .logo {
          
@@ -198,7 +194,6 @@ h2 {
         margin-left:-5px;
         max-width: 500px;
         padding:20px;
-        box-shadow: 0px 0px 0px rgb(136, 131, 131);
         background-color: white;
         border-radius: 8px;
         margin-bottom: 20px ;

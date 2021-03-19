@@ -1,11 +1,9 @@
 *{
     padding: 0;
-    margin: 0;
-    
+    margin: 0;   
 }
 .allpage{
     background: rgba(0, 0, 0, 0.3) url("background.jpg");
-    /*background-image: url("background.jpg");*/
     background-size : cover;
     background-blend-mode: darken;
     height: 150vh;
@@ -73,7 +71,7 @@
      left:50%;
      transform:translate(-50%, -50%);
      font-family: sans-serif;
-     user-select: none;
+     
     }
 
 .center h1{
@@ -107,7 +105,7 @@ p{
     color:blue;
     background:white;
     border: 1px solid;
-    outline: none;
+    
     border-radius: 25px;
     transition: .5s;
     
@@ -125,7 +123,7 @@ p{
 
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 0px;
+
 }
 
 
@@ -186,7 +184,6 @@ h2 {
      .navbar ul {
           
           display:flex;
-          /*text-align: center;*/
           width: 80%;
           flex-direction: column;
      }
@@ -210,10 +207,10 @@ h2 {
 
      }
 
-     .wrapper .center{
+     .allpage .center{
       
          position:absolute;
-         margin-top: 150px;
+         margin-top: 5px;
 
      }
 
@@ -222,7 +219,7 @@ h2 {
         font-weight: bold;
         width: 250px;
         text-align: center;
-        margin-top: 180px;     
+        margin-top: 30px;     
     
     }
 

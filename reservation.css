@@ -4,9 +4,9 @@
     
 }
 .allpage{
-    background-image: url(grg.jpg);
+    background-image: url(black.jpg);
     background-size : cover;
-    height: 100vh;
+    height: 110vh;
     
     
 }
@@ -69,10 +69,9 @@
 
     margin-top: 100px;
     text-align: center;
-    width: 100%;
-    
-
+    width: 100%;    
 }
+
 #vehicule{
     font-family: Arial;
     color: blue;
@@ -96,15 +95,17 @@
      
 
 }
-p{
+
+
+#daysinput{
+    width: 200px; height: 50px; font-size: 30px; color:blue; text-align: center;
+}
+.price{
     color:white;
     margin-top: 50px;
 }
 
-.priceplace{
-     text-align: center;   
-     margin-top: 50px;
-}
+
 
 
 
@@ -164,7 +165,6 @@ h2 {
      .navbar ul {
           
           display:flex;
-          /*text-align: center;*/
           width: 80%;
           flex-direction: column;
      }
@@ -204,13 +204,27 @@ h2 {
         font-size: 25px;
         width:200px;
         height: 50px;
+        padding-left: 0px;
+        padding-right: 12px;
+        padding-bottom:12px;
+        padding-top: 8px;
         margin-left: 43px;
         
     }
     .cfuel{
         margin-right:100px;
         margin-top: 50px;
-    }.our_socialmedia_icons{
+
+    }
+     #select_p{
+         margin-right: 90px;
+     }
+
+    #daysinput{
+        margin-right: 90px;
+    }
+    
+    .our_socialmedia_icons{
 
         margin-top: 400px;
         text-align: center;
